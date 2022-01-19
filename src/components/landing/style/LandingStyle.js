@@ -1,4 +1,4 @@
-import Image from "../pictures/landingTrees.jpg";
+import Image from "../../../assets/pictures/landingTrees.jpg";
 
 const backgroundPaper = {
     backgroundImage: {
