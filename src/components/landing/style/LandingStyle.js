@@ -1,15 +1,26 @@
-import Image from "../../../assets/pictures/landingTrees.jpg";
+import Image from "../../../assets/pictures/landingBackground.jpg";
 
-const backgroundPaper = {
+const LandingStyle = {
     backgroundImage: {
         height: window.innerHeight,
         backgroundImage: `url(${Image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        width: `calc(100vw + 48px)`,
-        margin: -24,
-        padding: 24,
+        width: "auto",
+    },
+    typography: {
+        fontFamily: ["Maven Pro", "Roboto", "Arial", "sans-serif"].join(","),
+    },
+    button: {
+        color: "black",
+        backgroundColor: "#ffffff",
+
+        maxWidth: "300px",
+        maxHeight: "300px",
+        minWidth: "200px",
+        minHeight: "75px",
+        fontSize: "20px",
     },
 };
 
-export default backgroundPaper;
+export default LandingStyle;
