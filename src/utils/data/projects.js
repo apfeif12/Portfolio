@@ -27,23 +27,14 @@ const projects = [
         id: 3,
     },
     {
-        name: "Rick and Morty Cards",
+        name: "Portfolio",
         description:
-            "An application that displays Rick and Morty statistic cards by fetching data from an API",
-        language: "React",
-        url: "https://google.com/",
-        githubURL: "https://github.com/",
+            "The website you're currently on! I built this using React and Material UI.",
+        language: "React/MUI",
+        url: "https://alexp-portfolio.netlify.app/",
+        githubURL: "https://github.com/apfeif12/Portfolio",
         id: 4,
     },
-    // {
-    //     name: "testName5",
-    //     description:
-    //         "A simple application built with React that displays todays NASA photo of the day.",
-    //     language: "testLanguage5",
-    //     url: "https://google.com/",
-    //     githubURL: "https://github.com/",
-    //     id: 5,
-    // },
 ];
 
 export default projects;
