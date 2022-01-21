@@ -73,7 +73,7 @@ export default function ProjectCard() {
                                                     url={projects.url}
                                                     width="250px"
                                                     textAlign="center"
-                                                    descriptionLength={5}
+                                                    descriptionLength={20}
                                                     openInNewTab={true}
                                                 />
                                             </Box>
