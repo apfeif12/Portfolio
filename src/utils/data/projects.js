@@ -35,15 +35,15 @@ const projects = [
         githubURL: "https://github.com/",
         id: 4,
     },
-    {
-        name: "testName5",
-        description:
-            "A simple application built with React that displays todays NASA photo of the day.",
-        language: "testLanguage5",
-        url: "https://google.com/",
-        githubURL: "https://github.com/",
-        id: 5,
-    },
+    // {
+    //     name: "testName5",
+    //     description:
+    //         "A simple application built with React that displays todays NASA photo of the day.",
+    //     language: "testLanguage5",
+    //     url: "https://google.com/",
+    //     githubURL: "https://github.com/",
+    //     id: 5,
+    // },
 ];
 
 export default projects;

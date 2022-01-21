@@ -1,11 +1,13 @@
 import React from "react";
 import { Typography, Paper, Container, Box, Button } from "@mui/material";
 
+import { Link } from "react-scroll";
+
 import LandingStyle from "./style/LandingStyle.js";
 
 export default function Landing() {
     return (
-        <Container maxWidth="false" disableGutters>
+        <Container id="landing" maxWidth="false" disableGutters>
             <Paper style={LandingStyle.backgroundImage} square>
                 <Box display="flex" justifyContent="center" pt="3%">
                     <Typography
@@ -49,14 +51,30 @@ export default function Landing() {
                 </Box>
                 <Box display="flex" justifyContent="center" pt="5%">
                     <Box mr="12%">
-                        <Button style={LandingStyle.button} variant="contained">
-                            See my work
-                        </Button>
+                        <Link
+                            activeClass="active"
+                            to="projects"
+                            spy={true}
+                            smooth={true}>
+                            <Button
+                                style={LandingStyle.button}
+                                variant="contained">
+                                See my work
+                            </Button>
+                        </Link>
                     </Box>
                     <Box>
-                        <Button style={LandingStyle.button} variant="contained">
-                            Contact me
-                        </Button>
+                        <Link
+                            activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}>
+                            <Button
+                                style={LandingStyle.button}
+                                variant="contained">
+                                Contact Me
+                            </Button>
+                        </Link>
                     </Box>
                 </Box>
             </Paper>

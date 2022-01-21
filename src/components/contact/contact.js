@@ -1,11 +1,11 @@
 import React from "react";
-import { Typography, Box, Paper } from "@mui/material";
+import { Typography, Box, Paper, Link } from "@mui/material";
 
 import ContactStyle from "./style/ContactStyle.js";
 
 export default function Contact() {
     return (
-        <Box display="flex" justifyContent="center" pt={12}>
+        <Box id="contact" display="flex" justifyContent="center" pt={5} mb={5}>
             <Paper
                 elevation={6}
                 sx={{
@@ -17,27 +17,34 @@ export default function Contact() {
                         fontSize={40}
                         variant="h3"
                         component="h3">
-                        Contact Me
+                        You can find me on:
                     </Typography>
                 </Box>
-                <Box display="flex" justifyContent="center" pt="%">
-                    <Box mr="38%">
-                        <Typography
+                <Box display="flex" justifyContent="space-evenly" pl="8%">
+                    <Box>
+                        <Link
                             style={ContactStyle.typography}
                             fontSize={40}
-                            variant="h3"
-                            component="h3">
-                            name
-                        </Typography>
+                            href="https://github.com/apfeif12">
+                            Github
+                        </Link>
                     </Box>
                     <Box>
-                        <Typography
+                        <Link
                             style={ContactStyle.typography}
                             fontSize={40}
-                            variant="h3"
-                            component="h3">
-                            email
-                        </Typography>
+                            href="https://www.linkedin.com/in/alex-pfeifer12/">
+                            LinkedIn
+                        </Link>
+                    </Box>
+                    <Box>
+                        <Link
+                            style={ContactStyle.typography}
+                            fontSize={40}
+                            href="mailto:apfeif.12@gmail.com"
+                            target="_top">
+                            apfeif.12@gmail
+                        </Link>
                     </Box>
                 </Box>
             </Paper>

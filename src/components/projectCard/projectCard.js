@@ -18,6 +18,7 @@ import ProjectCardStyle from "./style/ProjectCardStyle.js";
 export default function ProjectCard() {
     return (
         <Box
+            id="projects"
             display="flex"
             justifyContent="center"
             alignItems="center"
@@ -48,8 +49,8 @@ export default function ProjectCard() {
                         style={{ minHeight: "50vh" }}>
                         {projects.map((projects, id) => {
                             return (
-                                <Paper elevation={3}>
-                                    <Card variant="outlined" key={id}>
+                                <Paper elevation={3} key={id}>
+                                    <Card variant="outlined">
                                         <CardContent>
                                             <Typography
                                                 variant="h5"
