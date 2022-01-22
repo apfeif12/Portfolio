@@ -1,5 +1,6 @@
 import React from "react";
 import { LinkPreview } from "@dhaiwat10/react-link-preview";
+
 import {
     Typography,
     Grid,
@@ -27,7 +28,7 @@ export default function ProjectCard() {
             <Paper
                 elevation={6}
                 sx={{
-                    width: "80%",
+                    width: "70%",
                 }}>
                 <Box display="flex" justifyContent="center" pt={2}>
                     <Typography
@@ -90,13 +91,19 @@ export default function ProjectCard() {
                                                 </Typography>
                                             </Box>
                                         </CardContent>
-                                        <Box sx={{ justifyContent: "center" }}>
+                                        <Box
+                                            sx={{
+                                                justifyContent: "center",
+                                            }}>
                                             <CardActions
                                                 sx={{
                                                     justifyContent: "center",
                                                 }}>
                                                 <Button
-                                                    size="large"
+                                                    style={
+                                                        ProjectCardStyle.button
+                                                    }
+                                                    variant="contained"
                                                     href={projects.githubURL}>
                                                     See it on Github
                                                 </Button>

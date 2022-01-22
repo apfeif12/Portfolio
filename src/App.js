@@ -10,8 +10,8 @@ export default function App() {
     return (
         <>
             <CssBaseline />
-
             <Landing />
+
             <ProjectCard />
             <Contact />
         </>

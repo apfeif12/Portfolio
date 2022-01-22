@@ -1,9 +1,9 @@
 import React from "react";
 import { Typography, Box, Paper } from "@mui/material";
 
-import LanguagesStyle from "./style/LanguagesStyle.js";
+import LearningStyle from "./style/LearningStyle.js";
 
-export default function Language() {
+export default function Learning() {
     return (
         <Box display="flex" justifyContent="center" mt={3}>
             <Paper
@@ -13,7 +13,7 @@ export default function Language() {
                 }}>
                 <Box display="flex" justifyContent="center" pt={1}>
                     <Typography
-                        style={LanguagesStyle.typography}
+                        style={LearningStyle.typography}
                         fontSize={40}
                         variant="h3"
                         component="h3">
@@ -42,7 +42,7 @@ export default function Language() {
                                 pt="1%"
                                 display="flex"
                                 justifyContent="center"
-                                style={LanguagesStyle.typography}
+                                style={LearningStyle.typography}
                                 fontSize={40}
                                 variant="h3"
                                 component="h3">
@@ -66,7 +66,7 @@ export default function Language() {
                                 pt="1%"
                                 display="flex"
                                 justifyContent="center"
-                                style={LanguagesStyle.typography}
+                                style={LearningStyle.typography}
                                 fontSize={40}
                                 variant="h3"
                                 component="h3">
