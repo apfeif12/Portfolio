@@ -2,7 +2,7 @@ const projects = [
     {
         name: "Blue Witness",
         description:
-            "Collaborated with a team of developers to refactor CSS, with approx. 20000 lines of code removed from the project. Also implemented a mobile friendly design, allowing the app to be viewed from any screen size.",
+            "Collaborated with a team of developers to refactor CSS, with approx. 10000 lines of code removed from the project. Also implemented a mobile friendly design, allowing the app to be viewed from any screen size.",
         language: "CSS",
         url: "https://a.humanrightsfirst.dev/",
         githubURL: "https://github.com/BloomTech-Labs/hrf-blue-witness-fe",
