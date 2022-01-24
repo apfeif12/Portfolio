@@ -35,7 +35,7 @@ export default function Landing() {
                         fontSize={40}
                         variant="h6"
                         component="h3"
-                        color="#ffffff">
+                        color="#000000">
                         My name is Alex Pfeifer.
                     </Typography>
                 </Box>
@@ -45,7 +45,7 @@ export default function Landing() {
                         fontSize={40}
                         variant="h6"
                         component="h3"
-                        color="#ffffff">
+                        color="#000000">
                         I'm a web developer from Victoria, BC, Canada
                     </Typography>
                 </Box>

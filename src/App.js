@@ -11,7 +11,6 @@ export default function App() {
         <>
             <CssBaseline />
             <Landing />
-
             <ProjectCard />
             <Contact />
         </>

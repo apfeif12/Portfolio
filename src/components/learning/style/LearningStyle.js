@@ -1,6 +1,6 @@
 const LanguagesStyle = {
     typography: {
-        fontFamily: ["Maven Pro", "Roboto", "Arial", "sans-serif"].join(","),
+        fontFamily: "Faster One",
     },
 };
 

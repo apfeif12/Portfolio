@@ -9,7 +9,7 @@ const LandingStyle = {
         width: "auto",
     },
     typography: {
-        fontFamily: ["Maven Pro", "Roboto", "Arial", "sans-serif"].join(","),
+        fontFamily: "Abril Fatface",
     },
     button: {
         color: "black",
